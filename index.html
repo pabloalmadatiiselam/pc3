@@ -1,0 +1,132 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+<title>Juan Pereira Construcciones</title>
+<link rel="stylesheet" type="text/css" href="css/estilos.css">
+<link rel="stylesheet" type="text/css" href="fonts.css">
+</head>
+<body>
+<!-- Maquetacion BÃ¡sica de una web HMTL5 -->
+<div id="contenedor">
+	<header id ="cabecera">
+    <div id="logo">
+        <center>
+         <img src="imagenes/logo.jpg" width="352" height="109">
+        </center>
+    </div>
+    <div id="buscador">        
+        <FORM name="fbuscador" method="post" action="buscar.php" onsubmit="return verificar_blanco()">
+            <div id="campotexto"><input type ="text" name="criterio" class="campob"></div>
+            <div id="botonbuscar"><input type="submit" value="Buscar" class="botonb"></div>
+        </FORM>
+    </div>
+    <ul>
+        <li><a href="#"><img src="imagenes/facebook.png" width="45" height="44"></a></li>
+        <li><a href="#"><img src="imagenes/twitter.png" width="46" height="44">
+    </ul>
+    </header>
+    <div id="menubar"> 
+        <div id="menutext">Menu </div>         
+        <div id ="bt-menu"><a href="#"><span class="icon-menu"</span></a></div>
+    </div> 
+    <div class="limpiar"></div>
+	<nav id="menu">
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="trabajos.html">Trabajos</a></li>
+            <li><a href="servicios.html">Servicios</a></li>
+            <li><a href="contactos.html">Contactos</a></li>
+        </ul>
+    </nav>
+    <!-- Cuerpo -->
+    <section id="cuerpo">
+    <h1 class="titulopagina">Home</h1>
+    <article class="cajas">
+        <div id="cajapresentacion">
+            <h1>TRABAJANDO <br>CON <br>EXCELENCIA</h1>
+            <p>Somos una empresa de origen humilde y sencillo, que inicio trabajando para el Estado Provincial y Nacional realizando obras públicas de refacción, ampliación y obras nuevas, realizando y concretando distintos programas para cubrir distintas necesidades de los Propietarios o Entidades: Refacciones de siniestros en viviendas, Construcciones nuevas de: Viviendas Urbanas o Rurales e Infraestructuras, de Escuelas, de Complejos de Asistencia para la Salud, Playones Deportivos, etc.
+            Y hoy por medio de esta sencillo sitio web también ofrecemos nuestros servicios para realizar trabajos para particulares: Proyectos, Presupuestos, Tramites Municipales, Refacción y/o Remodelación, Construcciones Nuevas, Ampliaciones, Movimiento de suelo, y todo aquellos trabajos que la empresa pueda ofrecer para satisfacer las necesidades del Particular.
+            Esperamos que esta página sea un nexo de comunicación para que usted pueda contactarnos y consultar sobre sus necesidades y nuestras posibles soluciones.
+            </p>
+        </div>
+        <div id="banner">
+            <img src="servicios/foto-banner.jpg" width="440" height="290">
+        </div>
+        <!--Para que crezca la caja "cajas" pero no hace ya que a mi me sale igual. Lo coloco por las dudas-->
+        <div class="limpiar"></div>
+    </article>
+    <!--Proyectos-->        
+    <h1>Trabajos realizados</h1>    
+    <article class="cajas">
+    <div class="cajaproyectos">
+        <img src="Obras realizadas/10 Viviendas - Olegario Victor Andrade/Obras terminadas.JPG" width="200" heigh="130">
+        <h2>Viviendas</h2>
+        <p><a href="#">Descripción</a></p>
+    </div>
+    <div class="cajaproyectos">
+        <img src="Obras realizadas/10 Viviendas - Olegario Victor Andrade/Obras terminadas2.JPG" width="200" heigh="130">
+        <h2>Viviendas</h2>
+        <p><a href="#">Descripción</a></p>
+    </div>
+    <div class="cajaproyectos">
+        <img src="Obras realizadas/Escuela Nº 760 - Santiago de Liniers/Obra terminada1.JPG" width="200" heigh="130">
+        <h2>Escuela Santiago de Liniers</h2>
+        <p><a href="#">Descripción</a></p>
+    </div>
+    <div class="cajaproyectos" style="margin-right:0px;">
+        <img src="Obras realizadas/Playon Deportivo - Barrio Laure - Posadas/Obra terminada 1.jpg" width="200" heigh="130">
+        <h2>Playon deportivo</h2>
+        <p><a href="#">Descripción</a></p>
+    </div>
+    <div class="limpiar"></div>
+    </article>
+    <!--Servicios-->
+    <h1>Trabajos para particulares</h1>    
+    <div>
+        <div id="cajaservicios">
+            <p>01</p>
+            <h2>Refacción/Remodelación</h2>
+            <p>La empresa ofrece trabajos de refacciones en vivienda particular, departamento, o trabajos en la infraestructura  exterior que rodea a la vivienda: mampostería, revoques...<a href="refaccion.php">Seguir</a></p>
+            <img src="servicios/mamposteria.jpg" width="270" height="120">
+        </div>
+        <div id="cajaservicios">
+            <p>02</p>
+            <h2>Construcciones nuevas</h2>
+            <p>La empresa ofrece para el comitente que quiera realizar Construcciones Nuevas los siguientes servicios: Proyectos, Presupuestos, y Construcción y Dirección de Obra...<a href=construccionesnuevas.php>Seguir</a></p>
+            <img src="servicios/cubes_image_low.jpg" width="270" height="120">
+        </div>
+        <div id="cs-sm">
+            <p>03</p>
+            <h2>Movimiento de suelo</h2>
+            <p>La empresa alquila de Retroexcavadora (Modelo Maxion 4x4) y camión volcador capacidad de 6 m3, para realizar trabajos de excavación y movimientos de suelo...<a href= "movimientosuelo.php">Seguir</a></p>
+            <img src="Imagenes ilustrativas retro y camion/17-retroexcavadora-maxion-750.jpg" width="270" height="120">
+        </div>        
+        <div class="limpiar"></div>
+    </div>
+    </section>
+    <SCRIPT TYPE = "text/javascript" src = "js/jquery.js"> </SCRIPT>
+<SCRIPT TYPE = "text/javascript" src = "menu.js"> </SCRIPT>
+    <!-- Pie de Pagina -->
+    <footer id="piepagina">
+        <div id="menubarpie"> 
+            <div id="menutext">Menu </div>         
+            <div id ="bt-menu"><a href="#"><span class="icon-menu"</span></a></div>
+        </div> 
+        <div class="limpiar"></div>
+        <ul class="menupie">            
+            <li><a href="index.html">Home</a></li>
+            <li><a href="trabajos.html">Trabajos</a></li>
+            <li><a href="servicios.html">Servicios</a></li>
+            <li><a href="contactos.html">Contactos</a></li> 
+        </ul>
+        <ul class="socialespie">
+        <li><a href="#"><img src="imagenes/facebook.png" width="45" height="44"></a></li>
+        <li><a href="#"><img src="imagenes/twitter.png" width="46" height="44">
+        </ul>
+        <div class="limpiar"></div>
+    </footer>
+</div>
+</body>
+</html>

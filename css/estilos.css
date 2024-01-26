@@ -1,0 +1,540 @@
+BODY{
+	background: #fe0000;
+	margin: 30px;
+}
+
+.limpiar{
+	clear:both;/*no hace falta pero lo ponga por las dudas*/
+}
+
+p{
+	font-family: arial, helvetica,sans-serif;
+	font-size: 12px;
+	color:#333;
+	margin:6px;
+}
+
+h1{
+	font-family: arial, helvetica,sans-serif;
+	font-size: 18px;
+	color:#333;
+	margin:6px;
+}
+
+/****Maquetación****/
+#contenedor{
+	width:950px;
+	margin:0 auto;
+	background: #fff;
+	padding:25px;
+}
+
+#cabecera{
+	height: 84px;
+}
+
+#logo{
+width:351px;
+height:84px;
+float:left;	
+}
+
+#buscador{
+	/*background-color: blue;*/
+	float:right;
+	width: 487px;
+	margin-bottom: 10px;
+	text-align: center;	
+	
+}
+
+.campob{
+	border-radius: 5px;
+	width: 364px;
+	height: 33px;
+	border: 3px solid #fe0000;
+	font-size: 20px;
+	float: left;
+	margin-right:7px;
+	margin-left: 7px;
+	}
+
+.botonb{
+	border-radius: 5px;
+	width: 97px;
+	height: 40px;
+	background-color: #c8c8c8;
+	font-size: 77%;	
+	font-weight: bold;
+}	
+
+#cabecera ul{
+width: 120px;
+height: 64px;
+display:block;/*para que se vea como una caja*/
+float:right;
+padding:0px;
+margin: 0px;
+list-style: none;
+padding-top:20px;
+}
+
+/***compatibilidad con internet explorer 8***/
+#cabecera ul li{
+	float:right;
+}
+/*************************/
+#cabecera li a{
+	width:45px;
+	height: 45px;
+	float:right;
+	margin-left:10px;
+	display:block;/*para que se vean como una caja*/
+}
+
+/********Menú*******************/
+#menubar{
+	display: none;
+}
+
+#menu{
+height:80px;
+border-bottom:4px solid #fe0000;
+}
+
+#menu ul{
+	margin:0px;
+	padding:0px;
+	list-style: none;
+	width:474px;
+	height: 60px;
+	display:block;
+	background:#fe0000;
+	float:right;
+	padding-top:20px;
+}
+
+#menu li{
+	float:left;/***campatibilidad con internet explorer 5***/
+}
+
+#menu li a{
+	line-height: 40px;
+	display:block;
+	padding:0 25px;
+	border-right: 4px solid #fff;
+	font-family:arial, helvetica,sans-serif;
+	font-size:15px;
+	color:#fff;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+#menu li a:hover{
+	color:#000;
+}
+
+/*********Cuerpo***************/
+.titulopagina{
+	display: block;
+	font-size:30px;
+	color:#6d6d6d;
+}
+
+.cajas{
+	border-bottom:5px solid #fe0000;
+	padding:10px 0px 10px 0px;
+}
+
+#cajapresentacion{
+	width:470px;
+	float: left;
+	font-weight: normal;
+}
+
+#cajapresentacion h1{
+	font-size: 43px;
+	color:#fe0000;
+	font-weight:normal;
+}
+
+
+#banner{
+	width:440px;
+	float: right;
+}
+
+/*****Proyectos***********/
+.cajaproyectos{
+	width: 200px;
+	float: left;
+	border-top: 1px solid #fe0000;
+	padding-top:16px;
+	margin-right:50px;
+}
+
+.cajaproyectos h2{
+	font-family: Arial Helvetica Sans-serif;
+	font-size:14px;
+	color:#464646;
+	margin:6px;
+}
+
+.cajaproyectos a{
+	color:#464646;
+	text-decoration: none;
+}
+
+/******Servicios*******/
+#cajaservicios{
+	width:270px;
+	float: left;
+	margin-right: 68px;
+	margin-bottom: 20px;
+	border-top:1px solid #fe0000;
+}
+
+#cs-sm{
+	width:270px;
+	float: left;
+	margin-right: 0px;
+	margin-bottom: 20px;
+	border-top:1px solid #fe0000;
+}
+
+.cajaservicios,.cs-sm{
+	font-family: arial helvetica sans-serif;
+	font-size: 14px;
+	color:#727272;
+	margin:15px 6px 6px 6px;
+}
+
+/****Pie de página***********/
+#piepagina{
+	height: 80px;
+	border-top:5px solid #fe0000;
+}
+
+#menubarpie{
+	display:none;
+}
+
+#piepagina .menupie{
+	width:474px;
+	height: 60px;
+	display: block;
+	background: #fe0000;
+	float:left;
+	margin:0;
+	padding:0;
+	list-style: none;
+	padding-top:20px;
+}
+
+#piepagina .menupie li{
+	float: left;
+}
+
+#piepagina .menupie li a{
+	line-height: 40px;
+	display:block;
+	padding:0 25px;
+	border-right: 4px solid #fff;
+	font-family: arial, helvetica, sans-serif;
+	font-size: 14px;
+	color:#fff;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+#piepagina .menupie li a:hover{
+	color:#000;
+}
+
+#piepagina .socialespie{
+	width: 120px;
+	display: block;
+	float: right;
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	padding-top: 10px;
+}
+
+#piepagina .socialespie li{
+	float: right;
+}
+
+#piepagina .socialespie li a{
+	width:45px;
+	height:45px;
+	display: block;
+	float: right; /*no hace falta ya tiene li float:right;*/
+	margin-left: 6px;
+	}
+
+.obra {
+	max-width: 800px;
+	margin: 20px auto;
+	text-align: center;
+}
+
+.galeria {
+	display: flex;
+	justify-content: space-between;
+	margin-top: 10px;
+}
+
+.galeria img {
+	width: calc(33.33% - 10px); /* Ajusta el ancho de cada imagen 
+	/*width: 400px;*/
+	height: auto;
+	border-radius: 8px;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}	
+
+.obra2 {
+    max-width: 400px; /* Ajusta el ancho máximo según tus necesidades */
+}
+/***Diseño para tabletas 768***/
+@media only screen and (max-width:768px){
+	body{
+		margin:15px;
+	}
+
+/****Maquetación****/
+#contenedor{
+	width:96%;		
+	padding:2%;
+}
+
+#cabecera{
+height:auto;/*no va a tener una alto, va a depender de la cantidad de elementos que hay ahi*/
+}
+
+#logo{
+width:100%;/* a partir de la tableta ocupa todo el ancho*/
+height:auto;/*automatico*/
+float:none;/*no tiene float*/
+}
+
+#cabecera ul{
+display:none;
+}
+
+/*******Menú******/
+#menu ul{
+	float:none;
+	margin:0 auto;
+}
+
+/*******Cuerpo**************/
+#cajapresentacion{
+	width:100%;
+	float: none;
+}
+
+#cajapresentacion h1{
+	font-size: 33px;
+}
+
+#banner{
+	width:100%;
+	float:none;
+	}
+
+#cs-sm{
+	width:270px;
+	float: left;
+	margin-right: 68px;
+	margin-bottom: 20px;
+	border-top:1px solid #ff2f04;
+}
+table{
+	width: 100%;
+	height: auto;
+	margin-bottom: 7px;	
+}
+
+/*****Pie de página*****/
+
+#piepagina{
+	height: auto
+}
+
+#piepagina .menupie{
+	float:none;
+	margin:0px auto;
+	}
+
+#piepagina .socialespie{
+	float: none;
+	margin:0px auto;
+}
+
+}
+
+
+/***Diseño para Móviles 480***/
+@media only screen and (max-width:480px){
+body{
+	margin: 8px;
+}
+/****Maquetación****/
+#contenedor{
+	width:98%;		
+	padding:1%;
+}
+
+/*****Menú******/
+
+
+#menu{
+height:auto;
+border-bottom:none;
+
+
+}
+
+#menu ul{
+	width:100%;
+	height: auto;
+	background:none;
+	float:none;
+	padding-top:0px;
+
+
+}
+
+#menu li{
+	float:none;/***campatibilidad con internet explorer 5***/
+}
+
+#menu li a{
+	line-height: 30px;
+	display:block;
+	background: #fe0000;
+	padding:0;
+	text-align: left;
+	border-right: none;
+	font-size:13px;
+	color:#fff;
+	margin-top: 4px;
+	padding-left:7px;
+}
+
+#menubar{
+	display: block;
+	width: 100%;
+	background-color: #fe0000;
+	overflow: hidden;
+	padding:10px;
+	-webkit-box-sizing:border-box;
+	-moz-box-sizing:border-box;
+	box-sizing:border-box;
+}
+
+#menubarpie{
+	display: block;
+	width: 100%;
+	background-color: #fe0000;
+	overflow: hidden;
+	padding:10px;
+	-webkit-box-sizing:border-box;
+	-moz-box-sizing:border-box;
+	box-sizing:border-box;
+}
+
+#menutext{
+	float: left;
+	font-size:25px;
+	color:#fff;
+}
+
+#bt-menu{
+	display: block;
+	padding-top:10px;	
+	font-weight: bold;	
+	text-decoration: none;	
+	float: right;	
+}
+
+#banner img{
+	width: 100%;
+	height: auto;
+}
+
+table{
+	width: 97%;
+	height: auto;	
+}
+textarea{
+	width: 97%;
+}
+
+/*****Pie de página*****/
+#piepagina .menupie{
+	width: 100%;
+	height: auto;
+	padding-top: none;
+	background: none;
+
+}
+
+#piepagina .menupie li{
+	float: none;
+	}
+
+#piepagina .menupie li a{
+	line-height: 30px;
+	padding: 0;
+	background: #fe0000;
+	border-right: none;
+	font-size: 13px;
+	margin-bottom:4px;
+	text-align: left;
+	list-style:none;
+}
+
+}
+
+/***Diseño para móviles 320***/
+@media only screen and (max-width:320px){
+	#logo img{
+		width:60%;
+		height:auto;
+		}
+}
+
+/***Diseño para moviles 240***/
+@media only screen and (max-width:240px){
+	body{
+	margin:5px;
+	}
+
+	#cajapresentacion h1{
+		font-size: 20px;
+	}
+
+	.cajas{
+		padding:4px 0px 4px 0px;
+	}
+
+	.cajaproyectos{
+		width:100%;
+	}
+
+	.cajaproyectos img{
+		width:100%;
+		height: auto;
+	}
+
+	#cajaservicios, #cs-sm{
+		width:100%;
+	}
+
+	#cajaservicios img, #cs-sm img{
+		width: 100%;
+		height: auto;
+	}
+}

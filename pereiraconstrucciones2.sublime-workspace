@@ -1,0 +1,680 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"t",
+				"text-decoration"
+			],
+			[
+				"fo",
+				"font-weight"
+			],
+			[
+				"fon",
+				"font-size"
+			],
+			[
+				"pa",
+				"padding"
+			],
+			[
+				"font",
+				"font-family"
+			],
+			[
+				"cajaser",
+				"cajaservicios-sm"
+			],
+			[
+				"mar",
+				"margin"
+			],
+			[
+				"_",
+				"_GET"
+			],
+			[
+				"tablac",
+				"tablacabecera"
+			],
+			[
+				"ba",
+				"background"
+			],
+			[
+				"margin",
+				"margin-top"
+			],
+			[
+				"boton",
+				"botonbuscar"
+			],
+			[
+				"camp",
+				"campotexto"
+			],
+			[
+				"im",
+				"imprimir"
+			],
+			[
+				"text",
+				"text-decoration"
+			],
+			[
+				"conex",
+				"conexion1"
+			],
+			[
+				"cone",
+				"conexion2"
+			],
+			[
+				"bo",
+				"BODY"
+			],
+			[
+				"CL",
+				"clear"
+			],
+			[
+				"T",
+				"text-align"
+			],
+			[
+				"co",
+				"conexion1"
+			],
+			[
+				"bord",
+				"border-radius"
+			],
+			[
+				"mi",
+				"min-width"
+			],
+			[
+				"F",
+				"float"
+			],
+			[
+				"cl",
+				"clear"
+			],
+			[
+				"FO",
+				"FOOTER	Tag"
+			],
+			[
+				"SE",
+				"SECTION	Tag"
+			],
+			[
+				"AR",
+				"ARTICLE	Tag"
+			],
+			[
+				"N",
+				"NAV	Tag"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "index.php",
+			"settings":
+			{
+				"buffer_size": 6309,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "menu.js",
+			"settings":
+			{
+				"buffer_size": 172,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "css/estilos.css",
+			"settings":
+			{
+				"buffer_size": 6610,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"contents": "@font-face {\n	font-family: 'icomoon';\n	src:url('fonts/icomoon.eot?jlc661');\n	src:url('fonts/icomoon.eot?jlc661#iefix') format('embedded-opentype'),\n		url('fonts/icomoon.ttf?jlc661') format('truetype'),\n		url('fonts/icomoon.woff?jlc661') format('woff'),\n		url('fonts/icomoon.svg?jlc661#icomoon') format('svg');\n	font-weight: normal;\n	font-style: normal;\n}\n\n[class^=\"icon-\"], [class*=\" icon-\"] {\n    /* use !important to prevent issues with browser extensions that change fonts */\n	font-family: 'icomoon' !important;\n	speak: none;\n	font-style: normal;\n	font-weight: normal;\n	font-variant: normal;\n	text-transform: none;\n	line-height: 1;\n\n	/* Better Font Rendering =========== */\n	-webkit-font-smoothing: antialiased;\n	-moz-osx-font-smoothing: grayscale;\n}\n\n.icon-menu:before {\n	content: \"\\e900\";i	\n}\n\n",
+			"file": "fonts.css",
+			"file_size": 798,
+			"file_write_time": 130947802027926893,
+			"settings":
+			{
+				"buffer_size": 799,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "trabajos.php",
+			"settings":
+			{
+				"buffer_size": 5436,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "servicios.php",
+			"settings":
+			{
+				"buffer_size": 2447,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "contactos.php",
+			"settings":
+			{
+				"buffer_size": 6769,
+				"line_ending": "Windows"
+			}
+		}
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 35.0,
+		"selected_items":
+		[
+			[
+				"inst",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: in",
+				"Package Control: Install Package"
+			],
+			[
+				"pack",
+				"Preferences: Package Control Settings – Default"
+			],
+			[
+				"",
+				"Package Control: Install Package"
+			],
+			[
+				"lis",
+				"Package Control: List Packages"
+			],
+			[
+				"list",
+				"Package Control: List Packages"
+			],
+			[
+				"LIST",
+				"Package Control: List Packages"
+			],
+			[
+				"li",
+				"Package Control: List Packages"
+			],
+			[
+				"prefixr",
+				"Preferences: Prefixr Key Bindings – Default"
+			],
+			[
+				"pa",
+				"Package Control: Install Package"
+			],
+			[
+				"prefi",
+				"Preferences: Prefixr Key Bindings – Default"
+			],
+			[
+				"Prefi",
+				"Preferences: Prefixr Key Bindings – Default"
+			],
+			[
+				"pac",
+				"Package Control: Install Package"
+			],
+			[
+				"package ",
+				"Package Control: Install Package"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"package",
+				"Package Control: Discover Packages"
+			]
+		],
+		"width": 512.0
+	},
+	"console":
+	{
+		"height": 251.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/C/wamp/www/pereiraconstrucciones/index.php",
+		"/C/wamp/www/webinario-responsive-web-desing/index.html",
+		"/C/wamp/www/pereiraconstrucciones/trabajos.php",
+		"/C/wamp/www/pereiraconstrucciones/refaccion.php",
+		"/C/wamp/www/pereiraconstrucciones/servicios.php",
+		"/C/wamp/www/pereiraconstrucciones/contruccionesnuevas",
+		"/C/wamp/www/pereiraconstrucciones/construccionesnuevas.php",
+		"/C/wamp/www/webinario-responsive-web-desing/webinario-responsive-desing-finalizado/index.html",
+		"/C/wamp/www/pereiraconstrucciones/movimientosuelo.php",
+		"/C/wamp/www/pereiraconstrucciones/contactos.php",
+		"/C/wamp/www/pereiraconstrucciones/Obras realizadas/Escuela Nº 760 - Santiago de Liniers/Obra terminada1.JPG",
+		"/C/wamp/www/pereiraconstrucciones/Obras realizadas/Escuela Nº 760 - Santiago de Liniers/Obra terminada2.JPG",
+		"/C/wamp/www/pereiraconstrucciones/Imagenes ilustrativas retro y camion/17-retroexcavadora-maxion-750.jpg",
+		"/C/wamp/www/pereiraconstrucciones/Imagenes ilustrativas retro y camion/vendo-camion-volcador-chevrolet-c70_72a4a3e1_3.jpg",
+		"/C/wamp/www/pereiraconstrucciones/css/estilos.css",
+		"/C/wamp/www/pereiraconstrucciones/Obras realizadas/Escuela Nº 760 - Santiago de Liniers/Torre tanque de reservas.JPG",
+		"/C/wamp/www/webinario-responsive-web-desing/css/estilos.css",
+		"/C/wamp/www/tablon/index.php",
+		"/C/wamp/www/pintura/libreria.js",
+		"/C/wamp/www/pintura/index.php",
+		"/C/wamp/www/pintura/plastica.php",
+		"/C/wamp/www/pintura/esmalte.php",
+		"/C/wamp/www/pintura/alacal.php",
+		"/C/wamp/www/pintura/pdf.php",
+		"/C/wamp/www/pintura/buscador.php",
+		"/C/wamp/www/pintura/buscar.php",
+		"/C/wamp/www/pintura/decorativa.php",
+		"/C/wamp/www/pintura/temple.php",
+		"/C/wamp/www/pintura/barnices.php",
+		"/C/wamp/www/infylachtml5/buscar.php",
+		"/C/wamp/www/infylachtml5/linux.php",
+		"/C/wamp/www/infylachtml5/libreria.php",
+		"/C/wamp/www/infylachtml5/mostrar-desarrollo.php",
+		"/C/wamp/www/pintura/libreria.php",
+		"/C/wamp/www/infylachtml5/verificarf.js",
+		"/C/wamp/www/pintura/mostrar-detalle.php",
+		"/C/wamp/www/california/libreria.php",
+		"/C/wamp/www/pintura/estilos/estilo.css",
+		"/C/wamp/www/infylachtml5/estilos/estilo.css",
+		"/C/wamp/www/yuma/index.php",
+		"/C/wamp/www/california/estilos/estilo.css",
+		"/C/wamp/www/yuma/estilos/estilo.css",
+		"/C/wamp/www/pintura/imagenes/titanluk.xcf",
+		"/C/wamp/www/yuma/informe-formulario.php",
+		"/C/wamp/www/yuma/clientes.php",
+		"/C/wamp/www/pintura/estilos",
+		"/C/Users/Lenovo/estilos",
+		"/C/Users/Lenovo/AppData/Roaming/Sublime Text 2/Packages/Package Control/Package Control.sublime-settings",
+		"/C/wamp/www/infylachtml5/mail.php",
+		"/C/wamp/www/infylac/poo2.php",
+		"/C/wamp/www/infylac/mostrar-desarrollo2.php",
+		"/C/wamp/www/infylac/contador_mejorado.txt~",
+		"/C/wamp/www/infylac/buscar.php",
+		"/C/wamp/www/infylac/programacion/manual de programacion.odt",
+		"/C/wamp/www/infylac/temas2.php",
+		"/C/wamp/www/infylac/mensaje.php",
+		"/C/wamp/www/infylac/desarrollo-adaptado2.php",
+		"/C/wamp/www/infylac/linux2.php",
+		"/C/wamp/www/infylac/linux.php",
+		"/C/wamp/www/infylac/index.php",
+		"/C/xampp/htdocs/infylac/mostrar-desarrollo.php",
+		"/C/xampp/htdocs/infylac/temas.php",
+		"/C/xampp/htdocs/infylac/linux.php",
+		"/C/xampp/htdocs/infylac/mensaje.php",
+		"/C/xampp/htdocs/infylac/poo.php",
+		"/C/xampp/htdocs/infylac/desarrollo-adaptado.php",
+		"/C/xampp/htdocs/infylac/index.php"
+	],
+	"find":
+	{
+		"height": 38.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+			"C:\\wamp\\www\\infylachtml5\\imagenes"
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"php",
+			"fe0000",
+			"660319",
+			"    ",
+			"name",
+			"ROW",
+			"enlacenav",
+			"b3b3b3",
+			"radial",
+			"97f803",
+			"}\n",
+			"        <",
+			"                <a class=\"enlacenav\" href=\"index.html\">Inicio</a>\n",
+			"        a        < class=\"enlacenav\" href=\"index.html\">Inicio</a>\n"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			""
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 6,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "index.php",
+					"settings":
+					{
+						"buffer_size": 6309,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								486,
+								486
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "menu.js",
+					"settings":
+					{
+						"buffer_size": 172,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								172,
+								172
+							]
+						],
+						"settings":
+						{
+							"_anf_new": "",
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "css/estilos.css",
+					"settings":
+					{
+						"buffer_size": 6610,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/CSS/CSS.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 13692.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "fonts.css",
+					"settings":
+					{
+						"buffer_size": 799,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								794,
+								794
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/CSS/CSS.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 555.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "trabajos.php",
+					"settings":
+					{
+						"buffer_size": 5436,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								553,
+								553
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "servicios.php",
+					"settings":
+					{
+						"buffer_size": 2447,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								483,
+								483
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "contactos.php",
+					"settings":
+					{
+						"buffer_size": 6769,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								453,
+								453
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 0.0
+	},
+	"input":
+	{
+		"height": 34.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"replace":
+	{
+		"height": 0.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+			[
+				"",
+				"imagenes/titanluk.xcf"
+			],
+			[
+				"m",
+				"mail.php"
+			],
+			[
+				"c",
+				"comentario.php"
+			],
+			[
+				"in",
+				"index.php"
+			],
+			[
+				"libr",
+				"libreria.php"
+			],
+			[
+				"i",
+				"index.php"
+			],
+			[
+				"es",
+				"estilos/estilo.css"
+			],
+			[
+				"ip",
+				"imagenes/pratica.xcf"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"selected_items":
+		[
+		],
+		"width": 380.0
+	},
+	"show_minimap": false,
+	"show_open_files": true,
+	"show_tabs": false,
+	"side_bar_visible": true,
+	"side_bar_width": 435.0,
+	"status_bar_visible": true
+}

@@ -1,0 +1,556 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"fo",
+				"font-size"
+			],
+			[
+				"pa",
+				"padding"
+			],
+			[
+				"font",
+				"font-family"
+			],
+			[
+				"cajaser",
+				"cajaservicios-sm"
+			],
+			[
+				"mar",
+				"margin"
+			],
+			[
+				"_",
+				"_GET"
+			],
+			[
+				"tablac",
+				"tablacabecera"
+			],
+			[
+				"ba",
+				"background"
+			],
+			[
+				"margin",
+				"margin-top"
+			],
+			[
+				"boton",
+				"botonbuscar"
+			],
+			[
+				"camp",
+				"campotexto"
+			],
+			[
+				"im",
+				"imprimir"
+			],
+			[
+				"text",
+				"text-decoration"
+			],
+			[
+				"conex",
+				"conexion1"
+			],
+			[
+				"cone",
+				"conexion2"
+			],
+			[
+				"bo",
+				"BODY"
+			],
+			[
+				"CL",
+				"clear"
+			],
+			[
+				"T",
+				"text-align"
+			],
+			[
+				"co",
+				"conexion1"
+			],
+			[
+				"bord",
+				"border-radius"
+			],
+			[
+				"t",
+				"text-align"
+			],
+			[
+				"mi",
+				"min-width"
+			],
+			[
+				"F",
+				"float"
+			],
+			[
+				"cl",
+				"clear"
+			],
+			[
+				"fon",
+				"font-family"
+			],
+			[
+				"FO",
+				"FOOTER	Tag"
+			],
+			[
+				"SE",
+				"SECTION	Tag"
+			],
+			[
+				"AR",
+				"ARTICLE	Tag"
+			],
+			[
+				"N",
+				"NAV	Tag"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"contents": "",
+			"file": "/C/wamp/www/pereira construcciones/pereira construcciones/index.php",
+			"file_size": -1,
+			"file_write_time": -1,
+			"settings":
+			{
+				"buffer_size": 0,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"contents": "<!doctype html>\n<html>\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0\">\n<title>MaquetaciÃ³n BÃ¡sica Responsive</title>\n<link rel=\"stylesheet\" type=\"text/css\" href=\"css/estilos.css\">\n</head>\n<body>\n<!-- Maquetacion BÃ¡sica de una web HMTL5 -->\n<div id=\"contenedor\">\n	<header id =\"cabecera\">\n    <div id=\"logo\">\n        <center>\n         <img src=\"imagenes/ogo.jpg\" width=\"352\" height=\"69\">\n        </center>\n    </div>\n    <ul>\n        <li><a href=\"#\"><img src=\"imagenes/facebook.png\" width=\"45\" height=\"44\"></a></li>\n        <li><a href=\"#\"><img src=\"imagenes/twitter.png\" width=\"46\" height=\"44\">\n    </ul>\n    </header>\n	<nav id=\"menu\">\n        <ul>\n            <li><a href=\"#\">Home</a></li>\n            <li><a href=\"#\">Proyectos</a></li>\n            <li><a href=\"#\">Servicios</a></li>\n            <li><a href=\"#\">Contacto</a></li>\n        </ul>\n    </nav>\n    <!-- Cuerpo -->\n    <section id=\"cuerpo\">\n    <h1 class=\"titulopagina\">Home</h1>\n    <article class=\"cajas\">\n        <div id=\"cajapresentacion\">\n            <h1>TRABAJANDO <br>CON <br>EXCELENCIA</h1>\n            <p>Somos una empresa de origen humilde y sencillo, que inicio trabajando para el Estado Provincial y Nacional realizando obras públicas de refacción, ampliación y obras nuevas, realizando y concretando distintos programas para cubrir distintas necesidades de los Propietarios o Entidades: Refacciones de siniestros en viviendas, Construcciones nuevas de: Viviendas Urbanas o Rurales e Infraestructuras, de Escuelas, de Complejos de Asistencia para la Salud, Playones Deportivos, etc.\n            Y hoy por medio de esta sencillo sitio web también ofrecemos nuestros servicios para realizar trabajos para particulares: Proyectos, Presupuestos, Tramites Municipales, Refacción y/o Remodelación, Construcciones Nuevas, Ampliaciones, Movimiento de suelo, y todo aquellos trabajos que la empresa pueda ofrecer para satisfacer las necesidades del Particular.Esperamos que esta página sea un nexo de comunicación para que usted pueda contactarnos y consultar sobre sus necesidades y nuestras posibles soluciones.\n            </p>\n        </div>\n        <div id=\"banner\">\n            <img src=\"servicios/foto-banner.jpg\" width=\"440\" height=\"290\">\n        </div>\n        <!--Para que crezca la caja \"cajas\" pero no hace ya que a mi me sale igual. Lo coloco por las dudas-->\n        <div class=\"limpiar\"></div>\n    </article>\n    <!--Proyectos-->        \n    <h1>Proyectos</h1>    \n    <article class=\"cajas\">\n    <div class=\"cajaproyectos\">\n        <img src=\"servicios/edificio1.jpg\" width=\"200\" heigh=\"130\">\n        <h2>La cruz</h2>\n        <p><a href=\"#\">DescripciÃ³n del edificio </a></p>\n    </div>\n    <div class=\"cajaproyectos\">\n        <img src=\"servicios/edificio2.jpg\" width=\"200\" heigh=\"130\">\n        <h2>Santa MarÃ­a</h2>\n        <p><a href=\"#\">DescripciÃ³n del edificio </a></p>\n    </div>\n    <div class=\"cajaproyectos\">\n        <img src=\"servicios/edificio3.jpg\" width=\"200\" heigh=\"130\">\n        <h2>El nazareno</h2>\n        <p><a href=\"#\">DescripciÃ³n del edificio </a></p>\n    </div>\n    <div class=\"cajaproyectos\" style=\"margin-right:0px;\">\n        <img src=\"servicios/edificio4.jpg\" width=\"200\" heigh=\"130\">\n        <h2>El nazareno</h2>\n        <p><a href=\"#\">DescripciÃ³n del edificio </a></p>\n    </div>\n    <div class=\"limpiar\"></div>\n    </article>\n    <!--Servicios-->\n    <h1>Servicios</h1>\n    <div>\n        <div id=\"cajaservicios\">\n            <p>01</p>\n            <h2>Ampliaciones</h2>\n            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce vel gravida neque. Nulla sed velit commodo, luctus odio non, semper risus. Etiam non dictum arcu. Praesent ut mi risus. Lorem ipsum dolor sit amet, consectetur</p>\n            <img src=\"servicios/ampliacion.jpg\" width=\"270\" height=\"120\">\n        </div>\n        <div id=\"cajaservicios\">\n            <p>02</p>\n            <h2>Remodelaciones</h2>\n            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce vel gravida neque. Nulla sed velit commodo, luctus odio non, semper risus. Etiam non dictum arcu. Praesent ut mi risus. Lorem ipsum dolor sit amet, consectetur</p>\n            <img src=\"servicios/remodelacion.jpg\" width=\"270\" height=\"120\">\n        </div>\n        <div id=\"cs-sm\">\n            <p>03</p>\n            <h2>AlbaÃ±ileria</h2>\n            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce vel gravida neque. Nulla sed velit commodo, luctus odio non, semper risus. Etiam non dictum arcu. Praesent ut mi risus. Lorem ipsum dolor sit amet, consectetur</p>\n            <img src=\"servicios/albalineria.jpg\" width=\"270\" height=\"120\">\n        </div>\n        <div id=\"cajaservicios\">\n            <p>04</p>\n            <h2>Pintura</h2>\n            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce vel gravida neque. Nulla sed velit commodo, luctus odio non, semper risus. Etiam non dictum arcu. Praesent ut mi risus. Lorem ipsum dolor sit amet, consectetur</p>\n            <img src=\"servicios/pintura.jpg\" width=\"270\" height=\"120\">\n        </div>\n        <div id=\"cajaservicios\">\n            <p>05</p>\n            <h2>Carpinteria</h2>\n            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce vel gravida neque. Nulla sed velit commodo, luctus odio non, semper risus. Etiam non dictum arcu. Praesent ut mi risus. Lorem ipsum dolor sit amet, consectetur</p>\n            <img src=\"servicios/carpinteria.jpg\" width=\"270\" height=\"120\">\n        </div>\n        <div id=\"cs-sm\">\n            <p>06</p>\n            <h2>Gasfiteria</h2>\n            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce vel gravida neque. Nulla sed velit commodo, luctus odio non, semper risus. Etiam non dictum arcu. Praesent ut mi risus. Lorem ipsum dolor sit amet, consectetur</p>\n            <img src=\"servicios/gasfiteria.jpg\" width=\"270\" height=\"120\">\n        </div>\n        <div class=\"limpiar\"></div>\n    </div>\n    </section>\n    <!-- Pie de Pagina -->\n    <footer id=\"piepagina\">\n        <ul class=\"menupie\">\n            <li><a href=\"#\">Home</a></li>\n            <li><a href=\"#\">Proyectos</a></li>\n            <li><a href=\"#\">Servicios</a></li>\n            <li><a href=\"#\">Contacto</a></li> \n        </ul>\n        <ul class=\"socialespie\">\n        <li><a href=\"#\"><img src=\"imagenes/facebook.png\" width=\"45\" height=\"44\"></a></li>\n        <li><a href=\"#\"><img src=\"imagenes/twitter.png\" width=\"46\" height=\"44\">\n        </ul>\n        <div class=\"limpiar\"></div>\n    </footer>\n</div>\n</body>\n</html>",
+			"file": "/C/wamp/www/pereira construcciones/index.php",
+			"file_size": 0,
+			"file_write_time": 130933894535729121,
+			"settings":
+			{
+				"buffer_size": 6609,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"contents": "",
+			"file": "/C/wamp/www/pereira construcciones/imagenes",
+			"file_size": -1,
+			"file_write_time": -1,
+			"settings":
+			{
+				"buffer_size": 0,
+				"line_ending": "Windows"
+			}
+		}
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 35.0,
+		"selected_items":
+		[
+			[
+				"inst",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: in",
+				"Package Control: Install Package"
+			],
+			[
+				"pack",
+				"Preferences: Package Control Settings – Default"
+			],
+			[
+				"",
+				"Package Control: Install Package"
+			],
+			[
+				"lis",
+				"Package Control: List Packages"
+			],
+			[
+				"list",
+				"Package Control: List Packages"
+			],
+			[
+				"LIST",
+				"Package Control: List Packages"
+			],
+			[
+				"li",
+				"Package Control: List Packages"
+			],
+			[
+				"prefixr",
+				"Preferences: Prefixr Key Bindings – Default"
+			],
+			[
+				"pa",
+				"Package Control: Install Package"
+			],
+			[
+				"prefi",
+				"Preferences: Prefixr Key Bindings – Default"
+			],
+			[
+				"Prefi",
+				"Preferences: Prefixr Key Bindings – Default"
+			],
+			[
+				"pac",
+				"Package Control: Install Package"
+			],
+			[
+				"package ",
+				"Package Control: Install Package"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"package",
+				"Package Control: Discover Packages"
+			]
+		],
+		"width": 512.0
+	},
+	"console":
+	{
+		"height": 251.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/C/wamp/www/webinario-responsive-web-desing/css/estilos.css",
+		"/C/wamp/www/webinario-responsive-web-desing/index.html",
+		"/C/wamp/www/webinario-responsive-web-desing/webinario-responsive-desing-finalizado/index.html",
+		"/C/wamp/www/tablon/index.php",
+		"/C/wamp/www/pintura/libreria.js",
+		"/C/wamp/www/pintura/index.php",
+		"/C/wamp/www/pintura/plastica.php",
+		"/C/wamp/www/pintura/esmalte.php",
+		"/C/wamp/www/pintura/alacal.php",
+		"/C/wamp/www/pintura/pdf.php",
+		"/C/wamp/www/pintura/buscador.php",
+		"/C/wamp/www/pintura/buscar.php",
+		"/C/wamp/www/pintura/decorativa.php",
+		"/C/wamp/www/pintura/temple.php",
+		"/C/wamp/www/pintura/barnices.php",
+		"/C/wamp/www/infylachtml5/buscar.php",
+		"/C/wamp/www/infylachtml5/linux.php",
+		"/C/wamp/www/infylachtml5/libreria.php",
+		"/C/wamp/www/infylachtml5/mostrar-desarrollo.php",
+		"/C/wamp/www/pintura/libreria.php",
+		"/C/wamp/www/infylachtml5/verificarf.js",
+		"/C/wamp/www/pintura/mostrar-detalle.php",
+		"/C/wamp/www/california/libreria.php",
+		"/C/wamp/www/pintura/estilos/estilo.css",
+		"/C/wamp/www/infylachtml5/estilos/estilo.css",
+		"/C/wamp/www/yuma/index.php",
+		"/C/wamp/www/california/estilos/estilo.css",
+		"/C/wamp/www/yuma/estilos/estilo.css",
+		"/C/wamp/www/pintura/imagenes/titanluk.xcf",
+		"/C/wamp/www/yuma/informe-formulario.php",
+		"/C/wamp/www/yuma/clientes.php",
+		"/C/wamp/www/pintura/estilos",
+		"/C/Users/Lenovo/estilos",
+		"/C/Users/Lenovo/AppData/Roaming/Sublime Text 2/Packages/Package Control/Package Control.sublime-settings",
+		"/C/wamp/www/infylachtml5/mail.php",
+		"/C/wamp/www/infylac/poo2.php",
+		"/C/wamp/www/infylac/mostrar-desarrollo2.php",
+		"/C/wamp/www/infylac/contador_mejorado.txt~",
+		"/C/wamp/www/infylac/buscar.php",
+		"/C/wamp/www/infylac/programacion/manual de programacion.odt",
+		"/C/wamp/www/infylac/temas2.php",
+		"/C/wamp/www/infylac/mensaje.php",
+		"/C/wamp/www/infylac/desarrollo-adaptado2.php",
+		"/C/wamp/www/infylac/linux2.php",
+		"/C/wamp/www/infylac/linux.php",
+		"/C/wamp/www/infylac/index.php",
+		"/C/xampp/htdocs/infylac/mostrar-desarrollo.php",
+		"/C/xampp/htdocs/infylac/temas.php",
+		"/C/xampp/htdocs/infylac/linux.php",
+		"/C/xampp/htdocs/infylac/mensaje.php",
+		"/C/xampp/htdocs/infylac/poo.php",
+		"/C/xampp/htdocs/infylac/desarrollo-adaptado.php",
+		"/C/xampp/htdocs/infylac/index.php"
+	],
+	"find":
+	{
+		"height": 38.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+			"C:\\wamp\\www\\infylachtml5\\imagenes"
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"name",
+			"ROW",
+			"enlacenav",
+			"b3b3b3",
+			"radial",
+			"97f803",
+			"}\n",
+			"        <",
+			"                <a class=\"enlacenav\" href=\"index.html\">Inicio</a>\n",
+			"        a        < class=\"enlacenav\" href=\"index.html\">Inicio</a>\n"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			""
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 2,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "/C/wamp/www/pereira construcciones/pereira construcciones/index.php",
+					"settings":
+					{
+						"buffer_size": 0,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"_anf_new": "",
+							"syntax": "Packages/PHP/PHP.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "/C/wamp/www/pereira construcciones/index.php",
+					"settings":
+					{
+						"buffer_size": 6609,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								443,
+								443
+							]
+						],
+						"settings":
+						{
+							"_anf_new": "",
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 111.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "/C/wamp/www/pereira construcciones/index.php",
+					"settings":
+					{
+						"buffer_size": 6609,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								159,
+								159
+							]
+						],
+						"settings":
+						{
+							"_anf_new": "",
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "/C/wamp/www/pereira construcciones/imagenes",
+					"settings":
+					{
+						"buffer_size": 0,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"_anf_new": "",
+							"syntax": "Packages/Text/Plain text.tmLanguage",
+							"word_wrap": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 0.0
+	},
+	"input":
+	{
+		"height": 34.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"replace":
+	{
+		"height": 0.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+			[
+				"",
+				"imagenes/titanluk.xcf"
+			],
+			[
+				"m",
+				"mail.php"
+			],
+			[
+				"c",
+				"comentario.php"
+			],
+			[
+				"in",
+				"index.php"
+			],
+			[
+				"libr",
+				"libreria.php"
+			],
+			[
+				"i",
+				"index.php"
+			],
+			[
+				"es",
+				"estilos/estilo.css"
+			],
+			[
+				"ip",
+				"imagenes/pratica.xcf"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"selected_items":
+		[
+		],
+		"width": 380.0
+	},
+	"show_minimap": false,
+	"show_open_files": true,
+	"show_tabs": false,
+	"side_bar_visible": true,
+	"side_bar_width": 288.0,
+	"status_bar_visible": true
+}
