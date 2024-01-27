@@ -98,9 +98,11 @@ if($_POST["criterio"]<>""){
        $aux = $obra;
    }
    $desarrollo = $row->obr_des;
-   $array_palabras = explode(".",$desarrollo);                
+   /*$array_palabras = explode(".",$desarrollo); */
+   /*$array_palabras =  $desarrollo;*/            
    echo $refer . "-";
-   echo "<a href='mostrar-desarrollo.php?referencia=".$refer."&obra=".$obra."&titulo=".$titulo."'>".$titulo."</a><br><font class='descripcion'>".$array_palabras[0]."...</font><p>";
+   /*echo "<a href='mostrar-desarrollo.php?referencia=".$refer."&obra=".$obra."&titulo=".$titulo."'>".$titulo."</a><br><font class='descripcion'>".$array_palabras[0]."...</font><p>";*/
+   echo "<a href='mostrar-desarrollo.php?referencia=".$refer."&obra=".$obra."&titulo=".$titulo."'>".$titulo."</a><br><font class='descripcion'>".$desarrollo."...</font><p>";
    }
 } 
 else echo ("No ingreso un texto para la búsqueda");       
