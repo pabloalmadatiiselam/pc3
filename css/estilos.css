@@ -296,6 +296,10 @@ border-bottom:4px solid #fe0000;
 .obra2 {
     max-width: 400px; /* Ajusta el ancho máximo según tus necesidades */
 }
+
+.formulario{ 
+	margin-bottom: 30px;
+}
 /***Diseño para tabletas 768***/
 @media only screen and (max-width:768px){
 	body{

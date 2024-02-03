@@ -51,6 +51,21 @@
     return true;
    }
 </script>
+<script>
+    function verificar_blanco() {
+        // Obtener el valor del campo de texto
+        var criterio = document.fbuscador.criterio.value;
+
+        // Verificar si el campo está en blanco
+        if (criterio.trim() === "") {
+            alert("Por favor, ingrese un criterio de búsqueda");
+            return false; // Evita que el formulario se envíe
+        }
+
+        // Si todo está bien, permite que el formulario se envíe
+        return true;
+    }
+</script>
 </head>
 <body>
 <!-- Maquetacion BÃ¡sica de una web HMTL5 -->
@@ -61,17 +76,24 @@
          <img src="imagenes/logo.jpg" width="352" height="109">
         </center>
     </div>
+    <div id="buscador">        
+        <FORM name="fbuscador" method="post" action="buscar.php" onsubmit="return verificar_blanco()">
+            <div id="campotexto"><input type ="text" name="criterio" class="campob"></div>
+            <div id="botonbuscar"><input type="submit" value="Buscar" class="botonb"></div>
+        </FORM>
+    </div>
     <ul>
         <li><a href="#"><img src="imagenes/facebook.png" width="45" height="44"></a></li>
         <li><a href="#"><img src="imagenes/twitter.png" width="46" height="44">
     </ul>
     </header>
+    <div class="limpiar"></div>
 	<nav id="menu">
         <ul>
             <li><a href="index.html">Home</a></li>
             <li><a href="trabajos.html">trabajos</a></li>
             <li><a href="servicios.html">Servicios</a></li>
-            <li><a href="contactos.html">Contactos</a></li>
+            <li><a href="contactos.php">Contactos</a></li>
         </ul>
     </nav>
     <!-- Cuerpo -->
@@ -174,7 +196,7 @@
             <li><a href="index.html">Home</a></li>
             <li><a href="trabajos.html">Trabajos</a></li>
             <li><a href="servicios.html">Servicios</a></li>
-            <li><a href="contactos.html">Contactos</a></li> 
+            <li><a href="contactos.php">Contactos</a></li> 
         </ul>
         <ul class="socialespie">
         <li><a href="#"><img src="imagenes/facebook.png" width="45" height="44"></a></li>

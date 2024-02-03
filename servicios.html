@@ -5,6 +5,21 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
 <title>Juan Pereira Construcciones</title>
 <link rel="stylesheet" type="text/css" href="css/estilos.css">
+<script>
+    function verificar_blanco() {
+        // Obtener el valor del campo de texto
+        var criterio = document.fbuscador.criterio.value;
+
+        // Verificar si el campo está en blanco
+        if (criterio.trim() === "") {
+            alert("Por favor, ingrese un criterio de búsqueda");
+            return false; // Evita que el formulario se envíe
+        }
+
+        // Si todo está bien, permite que el formulario se envíe
+        return true;
+    }
+</script>
 </head>
 <body>
 <!-- Maquetacion BÃ¡sica de una web HMTL5 -->
@@ -15,17 +30,24 @@
          <img src="imagenes/logo.jpg" width="352" height="109">
         </center>
     </div>
+    <div id="buscador">        
+        <FORM name="fbuscador" method="post" action="buscar.php" onsubmit="return verificar_blanco()">
+            <div id="campotexto"><input type ="text" name="criterio" class="campob"></div>
+            <div id="botonbuscar"><input type="submit" value="Buscar" class="botonb"></div>
+        </FORM>
+    </div>
     <ul>
         <li><a href="#"><img src="imagenes/facebook.png" width="45" height="44"></a></li>
         <li><a href="#"><img src="imagenes/twitter.png" width="46" height="44">
     </ul>
     </header>
+    <div class="limpiar"></div>
 	<nav id="menu">
         <ul>
             <li><a href="index.html">Home</a></li>
             <li><a href="trabajos.html">Trabajos</a></li>
             <li><a href="servicios.html">Servicios</a></li>
-            <li><a href="contactos.html">Contactos</a></li>
+            <li><a href="contactos.php">Contactos</a></li>
         </ul>
     </nav>
     <!-- Cuerpo -->
@@ -34,13 +56,14 @@
     <article class="cajas">
         <div id="cajapresentacion">
             <h1>TRABAJANDO <br>CON <br>EXCELENCIA</h1>
-            <p>
-                La empresa ofrece distintos servicios
-                y son los siguientes:
+            <p>La empresa ofrece distintos servicios
+                y son los siguientes:</p>
+            <p>                
                 <a href="refaccion.php">Refaccion/Remodelacion</a><br>
                 <a href="construccionesnuevas.php">Construcciones nuevas</a><br>
                 <a href="movimientosuelo.php">Movimiento de suelo</a><br>
             </p>
+            <p>Consulte presupuesto haciendo clic en: <a href = "cp.html">Presupuesto</a></p>
         </div>
         <div id="banner">
             <img src="servicios/foto-banner.jpg" width="440" height="290">
@@ -55,7 +78,7 @@
             <li><a href="index.html">Home</a></li>
             <li><a href="trabajos.html">Trabajos</a></li>
             <li><a href="servicios.html">Servicios</a></li>
-            <li><a href="contactos.html">Contactos</a></li> 
+            <li><a href="contactos.php">Contactos</a></li> 
         </ul>
         <ul class="socialespie">
         <li><a href="#"><img src="imagenes/facebook.png" width="45" height="44"></a></li>
