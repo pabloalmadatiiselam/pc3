@@ -15,17 +15,24 @@
          <img src="imagenes/logo.jpg" width="352" height="109">
         </center>
     </div>
+    <div id="buscador">        
+        <FORM name="fbuscador" method="post" action="buscar.php" onsubmit="return verificar_blanco()">
+            <div id="campotexto"><input type ="text" name="criterio" class="campob"></div>
+            <div id="botonbuscar"><input type="submit" value="Buscar" class="botonb"></div>
+        </FORM>
+    </div>
     <ul>
         <li><a href="#"><img src="imagenes/facebook.png" width="45" height="44"></a></li>
         <li><a href="#"><img src="imagenes/twitter.png" width="46" height="44">
     </ul>
     </header>
+    <div class="limpiar"></div>
 	<nav id="menu">
         <ul>
-            <li><a href="index.php">Home</a></li>
-            <li><a href="trabajos.php">Trabajos</a></li>
-            <li><a href="servicios.php">Servicios</a></li>
-            <li><a href="#">Contacto</a></li>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="trabajos.html">Trabajos</a></li>
+            <li><a href="servicios.html">Servicios</a></li>
+            <li><a href="contactos.php">Contactos</a></li>
         </ul>
     </nav>
     <!-- Cuerpo -->
@@ -52,11 +59,16 @@
     </section>
     <!-- Pie de Pagina -->
     <footer id="piepagina">
-        <ul class="menupie">
-            <li><a href="#">Home</a></li>
-            <li><a href="trabajos.php">Trabajos</a></li>
-            <li><a href="servicios.php">Servicios</a></li>
-            <li><a href="#">Contacto</a></li> 
+        <div id="menubarpie"> 
+            <div id="menutext">Menu </div>         
+            <div id ="bt-menu"><a href="#"><span class="icon-menu"</span></a></div>
+        </div> 
+        <div class="limpiar"></div>
+        <ul class="menupie">            
+            <li><a href="index.html">Home</a></li>
+            <li><a href="trabajos.html">Trabajos</a></li>
+            <li><a href="servicios.html">Servicios</a></li>
+            <li><a href="contactos.php">Contactos</a></li> 
         </ul>
         <ul class="socialespie">
         <li><a href="#"><img src="imagenes/facebook.png" width="45" height="44"></a></li>
