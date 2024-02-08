@@ -500,6 +500,25 @@ textarea{
 	list-style:none;
 }
 
+/*Estilos para dispositivos móviles con ancho de 480px o menos */
+    /* Modificar el contenedor del buscador para cambiar la disposición */
+    #buscador {
+        width: 100%; /* Ajustar el ancho al 100% */
+        text-align: center; /* Centrar el contenido */
+    }
+
+    /* Estilos para el campo de texto del buscador */
+    #buscador .campob {
+        margin-right: 0; /* Eliminar el margen derecho */
+        margin-bottom: 10px; /* Agregar un margen inferior */
+        width: calc(100% - 14px); /* Calcular el ancho restando el margen izquierdo y derecho */
+    }
+
+    /* Estilos para el botón de búsqueda */
+    #buscador .botonb {
+        width: calc(100% - 14px); /* Calcular el ancho restando el margen izquierdo y derecho */
+    }
+
 }
 
 /***Diseño para móviles 320***/
